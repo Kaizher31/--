@@ -1,0 +1,204 @@
+/* 스타일 전체 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+/* 헤더 스타일 */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 작은 메뉴 스타일 */
+.small-menu {
+    color: white;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.small-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.small-menu a:hover {
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 섹션 */
+.backimage1 {
+    background-image: url('./images/white_wolf_face.png');
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.profile {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 80%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.details {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.details .education {
+    grid-area: 1 / 1;
+}
+
+.details .certification {
+    grid-area: 2 / 1;
+}
+
+.details .program-skill {
+    grid-area: 1 / 2 / span 2; 
+}
+
+.details h3 {
+    font-size: 18px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.details > div {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.program-skill p {
+    display: flex;
+    align-items: center;
+}
+
+.skill-bar {
+    display: inline-block;
+    height: 8px;
+    background-color: blue;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+
+/* 이력서 테이블 */
+.resume-section table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.resume-section th, .resume-section td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.resume-section th {
+    background-color: white;
+    text-align: left;
+}
+
+.favorites-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.favorites-section ul li {
+    margin: 15px 0;
+}
+
+.favorites-section ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.favorites-section ul li a:hover {
+    color: deepskyblue;
+}
+
